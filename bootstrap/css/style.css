@@ -1,0 +1,670 @@
+@charset "utf-8";
+
+
+/* tipo de letra -------------------------------------------------------*/
+/* ---------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'soberana_titularbold';
+    src: url('font/soberanatitular-bold-webfont.eot');
+    src: local('☺'),
+    url('font/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanatitular-bold-webfont.woff') format('woff'),
+    url('font/soberanatitular-bold-webfont.ttf') format('truetype'),
+    url('font/soberanatitular-bold-webfont.svg#soberana_titularbold') format('svg');
+}
+@font-face {
+    font-family: 'soberana_titularregular';
+    src: url('font/soberanatitular-regular-webfont.eot');
+    src: local('☺'),
+    url('font/soberanatitular-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanatitular-regular-webfont.woff') format('woff'),
+    url('font/soberanatitular-regular-webfont.ttf') format('truetype'),
+    url('font/soberanatitular-regular-webfont.svg#soberana_titularregular') format('svg');    
+}
+@font-face {
+    font-family: 'soberana_sansbold';
+    src: url('font/soberanasans-black-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-black-webfont.woff') format('woff'),
+    url('font/soberanasans-black-webfont.ttf') format('truetype'),
+    url('font/soberanasans-black-webfont.svg#soberana_sansbold') format('svg');    
+}
+@font-face {
+    font-family: 'soberana_sansbold_italic';
+    src: url('font/soberanasans-blackitalic-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-blackitalic-webfont.woff') format('woff'),
+    url('font/soberanasans-blackitalic-webfont.ttf') format('truetype'),
+    url('font/soberanasans-blackitalic-webfont.svg#soberana_sansbold_italic') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sans_lightbold';
+    src: url('font/soberanasans-bold-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-bold-webfont.woff') format('woff'),
+    url('font/soberanasans-bold-webfont.ttf') format('truetype'),
+    url('font/soberanasans-bold-webfont.svg#soberana_sans_lightbold') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sans_lightBdIt';
+    src: url('font/soberanasans-bolditalic-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-bolditalic-webfont.woff') format('woff'),
+    url('font/soberanasans-bolditalic-webfont.ttf') format('truetype'),
+    url('font/soberanasans-bolditalic-webfont.svg#soberana_sans_lightBdIt') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sansitalic';
+    src: url('font/soberanasans-italic-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-italic-webfont.woff') format('woff'),
+    url('font/soberanasans-italic-webfont.ttf') format('truetype'),
+    url('font/soberanasans-italic-webfont.svg#soberana_sansitalic') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sanslight';
+    src: url('font/soberanasans-light-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-light-webfont.woff') format('woff'),
+    url('font/soberanasans-light-webfont.ttf') format('truetype'),
+    url('font/soberanasans-light-webfont.svg#soberana_sanslight') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sanslight_italic';
+    src: url('font/soberanasans-lightitalic-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-lightitalic-webfont.woff') format('woff'),
+    url('font/soberanasans-lightitalic-webfont.ttf') format('truetype'),
+    url('font/soberanasans-lightitalic-webfont.svg#soberana_sanslight_italic') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sansregular';
+    src: url('font/soberanasans-regular-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-regular-webfont.woff') format('woff'),
+    url('font/soberanasans-regular-webfont.ttf') format('truetype'),
+    url('font/soberanasans-regular-webfont.svg#soberana_sansregular') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sansultra';
+    src: url('font/soberanasans-ultra-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-ultra-webfont.woff') format('woff'),
+    url('font/soberanasans-ultra-webfont.ttf') format('truetype'),
+    url('font/soberanasans-ultra-webfont.svg#soberana_sansultra') format('svg');
+}
+@font-face {
+    font-family: 'soberana_sansultra_italic';
+    src: url('font/soberanasans-ultraitalic-webfont.eot');
+    src: local('☺'),
+    url('font/soberanasans-ultraitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/soberanasans-ultraitalic-webfont.woff') format('woff'),
+    url('font/soberanasans-ultraitalic-webfont.ttf') format('truetype'),
+    url('font/soberanasans-ultraitalic-webfont.svg#soberana_sansultra_italic') format('svg');
+}
+
+
+/* estilo general ------------------------------------------------------*/
+/* ---------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------*/
+
+
+/* reset de estilos  de navegador --------------------------------------*/
+* { margin: 0; padding: 0; }
+/*clearfix { display: inline-block; }*/
+
+
+/* cuerpo de la página -------------------------------------------------*/
+body { background: #fafafa; color: #2F2F2F; font: 1em "soberana_sansregular", Calibri, sans-serif;}
+/*body { background-image: url('../img/enconstruccion.jpg'); background-repeat:repeat; color: #2F2F2F; font: 1em "soberana_sansregular", Calibri, sans-serif;}*/
+
+
+/* clases --------------------------------------------------------------*/
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.justifyText{ text-align : justify; }
+.interlineado {line-height: 200%; white-space: pre-line; }
+.link_nuevo { background: #fafafa; color: #B92025; font: 1em "soberana_sansregular", Calibri, sans-serif; }
+
+
+/*.fuente{ font: 1em "soberana_sansregular", Calibri, sans-serif; color: #2F2F2F; }*/
+
+
+/* etiquetas html ------------------------------------------------------*/
+img { border: 0 none; }
+a { text-decoration: none; color:#5F5E5C; }
+a:hover { text-decoration: underline; color:#5F5E5C; }
+b { font-family: "soberana_sansbold", Calibri, sans-serif!important;font-weight: bold!important; }
+p { background: #fafafa; color: #2F2F2F; font: 1em "soberana_sansregular", Calibri, sans-serif;}
+
+/* contenedor ----------------------------------------------------------*/
+#contenedor { margin: 16px auto 0; width: 980px; }
+/*.InicioSeccion {display: none;}*/
+
+
+/* cabecera -----------------------------------------------------------*/
+#header { height: 180px; padding: 6px 16px; width: 980px; padding-top: 18px; }
+
+/* contenido ----------------------------------------------------------*/
+#contenido { padding: 16px; }
+
+
+/* barra de herramientas superior -------------------------------------*/
+#barra_herramientas { height: 35px; width: 980px; }
+#acceso { float: left; padding: 8px 0 0 300px; font: 12px "soberana_sansregular", Calibri, sans-serif; text-transform:  uppercase; }
+#acceso a { padding: 5px 2px; }
+
+
+/* formulario de busqueda ---------------------------------------------*/
+#busqueda-form { float: right; background: #f1f1f1; border: 1px solid #fafafa; box-shadow: 1px 0 0 #f8f8f8; padding:  0 5px 3px 5px; position: relative; }
+#busqueda-form input[type=text] { background: #ffffff; border: 1px solid #d6d6d6; box-shadow: inset 1px 1px 0 #eeeeee; height: 25px; line-height: 25px; padding: 0 28px 0 10px; }
+#busqueda-form button { position: absolute; top: 42%; right: 6px; margin-top: -12px; background-image: url("../img/sprites.png?v=1.6"); background-repeat: no-repeat; 
+background-position: -286px -61px; display: block; height: 25px; width: 25px; text-indent: -9999px; }
+
+
+/* logotipos ----------------------------------------------------------*/
+#logos { height: 120px; width: 980px; background: url("../img/cabeza2016.jpg") 0 0 no-repeat; }
+
+/*
+#logo_sep_nombre_tec { float:left; width: 750px; }
+#logo_sep_nombre_tec #logo_sep { float: left; }
+#logo_sep_nombre_tec #nombre { float: right; margin-top: 25px; padding: 5px; width: 450px; }
+#nombre label { font: 18px "soberana_titularbold", Calibri, sans-serif; color:#98979C; }
+#logo_dgest_tec { float:right; padding: 16px 0px; }
+#logo_dgest_tec a { padding: 5px 8px; }
+*/
+
+/* menu ----------------------------------------------------------------*/
+/* ----------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------*/
+#header #nav { margin-bottom: 30px; }
+#header #nav ul { list-style-type: none; }
+#header #nav #nav-bar { background: url("../img/sprites.png?v=1.6") 0 0 no-repeat; height: 40px; margin-top: 23px; width: 980px; padding: 0 20px; margin-left: -20px; }
+#header #nav #nav-bar > ul > li { float: left;  position: relative; font:12px 'soberana_titularbold';}
+#header #nav #nav-bar > ul > li:before { background-image: url("../img/sprites.png?v=1.6"); background-repeat: no-repeat; background-position: -286px -150px; /*size: $width $height;*/ display: block; height: 11px; width: 8px; text-indent: -9999px; content: ""; float: left; margin: 13px 12px 0; }
+#header #nav #nav-bar > ul > li:first-child:before { content: none; display: none; }
+#header #nav #nav-bar > ul > li > a { border-left: 1px solid transparent; border-right: 1px solid transparent; color: #5f5e5c; float: left; height: 37px; line-height: 37px; padding: 0 16px; position: relative; z-index: 20; margin-top: 2px;}
+#header #nav #nav-bar > ul > li > a.selected { color: #cf242a; }
+#header #nav #nav-bar > ul > li:hover > a { background: #fbfbfb; border-left-color: #CCCCCC; border-right-color: #CCCCCC; text-decoration: none; }
+/*
+#header #nav .submenu { background: #dfdfdf; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#cbcbcb',startColorstr='#fbfbfb'); 
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#cbcbcb',startColorstr='#fbfbfb')"; 
+			background-image: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#cbcbcb)); 
+			background-image: -moz-linear-gradient(center top, #fbfbfb, #cbcbcb); 
+			border: 1px solid #fafafa; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); display: none; font: 13px/14px serif; margin-left: 35px; min-width: 140px; padding: 18px; 
+			position: absolute; text-transform: uppercase; top: 39px; z-index: 15; }
+            */
+            #header #nav .submenu { background: #dfdfdf; 
+               /*background-image: -webkit-gradient(linear, left top, left bottom);*/
+               /*background-image: -moz-linear-gradient(center top, #fbfbfb, #cbcbcb);*/ 
+               border: 1px solid #fafafa; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); display: none; font: 13px/14px serif; margin-left: 35px; min-width: 140px; padding: 18px; 
+               position: absolute; text-transform: uppercase; top: 39px; z-index: 15; }
+               #header #nav .submenu a { color: #545454; font:12px, 'soberana_sansregular'; }
+               #header #nav .submenu ul li { border-top: 1px solid #ffffff; padding: 8px 5px; text-align: left; white-space: nowrap; }
+               #header #nav .submenu ul li:first-child { border-top: 0; }
+               #header #nav .submenu ul li a { display: block; }
+               /*#header #nav #galeria-submenu { overflow: hidden; margin-left: -500px; padding-right: 28px 30px 28px 28px; width: 620px;}*/
+               #header #nav #galeria-submenu { overflow: hidden; margin-left: -500px; padding: 28px 30px 28px 28px; width: 820px;}
+               #header #nav #galeria-submenu .left { float: left; width: 170px; padding: 0 10px;  }
+               #header #nav #galeria-submenu .left h3 { font:14px 'soberana_sanslight_italic'; margin: 0 0 20px 5px; text-transform: none; }
+               #header #nav #galeria-submenu .left ul li { white-space: normal; }
+
+
+               /* botón rojo del banner principal -------------------------------------*/
+               .button, .more-link { background: url("../img/sprites.png?v=1.6") no-repeat; border:none; appearance:none; color: #fafafa !important; display: block; font: 11px/29px serif; height: 35px; text-align: center; text-transform: uppercase; }
+               .button.centered, .more-link.centered { margin-left: auto; margin-right: auto; }
+               .button.search-back, .more-link.search-back { margin-top: 32px; }
+               .button:hover, .more-link:hover { color: #FFF; text-decoration: none !important; }
+               button.button { padding-bottom: 8px; }
+               .button.normal, .more-link { width: 118px; }
+               .button.large { width: 200px; }
+               .button.medium { width: 92px; }
+               .button.small { width: 72px; }
+               .button.red.large { background-position: -853px -61px; }
+               .button.red.large:hover { background-position: -440px -321px; }
+               .button.green.normal { background-position: -725px -61px; }
+               .button.green.normal:hover { background-position: -312px -321px; }
+               .button.green.medium { background-position: -541px -61px; }
+               .button.green.medium:hover { background-position: -128px -321px; }
+               .button.green.small { background-position: -643px -61px; }
+               .button.green.small:hover { background-position: -230px -321px; }
+               .button.red.normal, .more-link { background-position: -413px -61px; }
+               .button.red.normal:hover, .more-link:hover { background-position: 0 -321px; }
+
+
+               /* botón verde  ------------------------------------------------------*/
+               .button, .more-linkgreen { background: url("../img/sprites.png?v=1.5") no-repeat; color: #fafafa; display: block; font: 11px/29px serif; height: 200px; text-align: center; text-transform: uppercase; }
+               .button.centered, .more-linkgreen.centered { margin-left: auto; margin-right: auto; }
+               .button.search-back, .more-linkgreen.search-back { margin-top: 32px; }
+               .button:hover, .more-linkgreen:hover { text-decoration: none !important; }
+               button.button { padding-bottom: 8px; }
+               .button.bnormal, .more-linkgreen { width: 118px; }
+               .button.large { width: 200px; }
+               .button.medium { width: 92px; }
+               .button.small { width: 72px; }
+               .button.red.large { background-position: -853px -61px; }
+               .button.red.large:hover { background-position: -440px -321px; }
+               .button.green.bnormal { background-position: -725px -61px; }
+               .button.green.bnormal:hover { background-position: -312px -321px; }
+               .button.green.medium { background-position: -541px -61px; }
+               .button.green.medium:hover { background-position: -128px -321px; }
+               .button.green.small { background-position: -643px -61px; }
+               .button.green.small:hover { background-position: -230px -321px; }
+               .button.red.bnormal, .more-linkgreen { background-position: -413px -61px; }
+               .button.red.bnormal:hover, .more-linkgreen:hover { background-position: 0 -321px; }
+
+
+               /* contenido de noticias y botones---------------------------------------*/
+               /* ----------------------------------------------------------------------*/
+               /* ----------------------------------------------------------------------*/
+               .minusculas { text-transform: lowercase; }
+               #contenedor-medio { margin-top: 30px; background:transparent; height: 1100px; width: 995px; padding: 10px; }
+               #contenedor-medio2 { margin-top: 60px; background:transparent; height: 1100px; width: 995px; padding: 10px; }
+
+
+               /* area de noticias -----------------------------------------------------*/
+               #area-noticias { margin-top: 0px; background:transparent; float: left; height: auto; width: 671px;}
+               .home-post { background: url("../img/post-bottom-shadow.png") 50% 100% no-repeat; margin-top: 37px; min-height: 156px; padding: 6px 0 52px 276px; position: relative; }
+               .home-post:first-child { margin-top: 0; }
+               .home-post .no-thumb, .home-post .thumb { border: 1px solid #ffffff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); display:inline; left: 0; 
+                  position: absolute; top: 0; height: 160px; width: 250px; overflow: hidden; }
+                  .home-post .no-thumb img, .home-post .thumb img { float: left; display: inline; }
+/*
+.home-post .no-thumb { background: #dededd; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#d5d5d4',startColorstr='#e8e8e7'); 
+					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#d5d5d4',startColorstr='#e8e8e7')"; 
+					background-image: -webkit-gradient(linear, left top, left bottom, from(#e8e8e7), to(#d5d5d4)); 
+					background-image: -moz-linear-gradient(center top, #e8e8e7, #d5d5d4); }
+                    */
+                    .home-post .no-thumb { background: #dededd; 
+                     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#d5d5d4',startColorstr='#e8e8e7')"; 
+                     background-image: -webkit-gradient(linear, left top, left bottom);
+                     background-image: -moz-linear-gradient(center top, #e8e8e7, #d5d5d4); }
+                     .home-post .no-thumb img { position: absolute; top: 50%; left: 50%; margin: -57px 0 0 -57px; }
+                     .home-post .video-thumb { position: absolute; top: 0; left: 0; width: 250px; height: 160px; }
+                     .home-post .post-title { font: 18px "soberana_sansregular", Calibri, sans-serif; text-transform:uppercase; color:#B92025; }
+                     .home-post p { margin-top: 0.5em; }
+                     .home-post .more-link { margin-top: 2em; }
+                     .blog-post .post-thumb .post-time-ribbon { top: 18px; }
+                     .post-time-ribbon { background: url("../img/sprites.png?v=1.6") -321px -61px no-repeat; height: 38px; left: -12px; line-height: 30px; padding-left: 12px; 
+                     position: absolute; text-align: left; text-transform: uppercase; top: 8px; width: 70px; z-index: 2;
+                     font-family: "Times New Roman", Serif; color: #515151; font-size: 15px;}
+                     .home-post .no-thumb, .home-post .thumb { border: 1px solid #ffffff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); display: inline; left: 0; 
+                      position: absolute; top: 0; height: 160px; width: 250px; overflow: hidden; }
+                      .home-post .no-thumb img, .home-post .thumb img { float: left; display: inline; }
+
+
+
+                      /* area general de botones grises y relevante ----------------------------*/
+                      /* máximo 8 botones grises (no poner mas) --------------------------------*/
+                      #area-botones { margin-top: 0px; background:transparent; float: left; height: 1100px; width: 324px; }
+                      #relevante { margin-top: 0px; margin-left: 16px; float:left; display:block; padding: 10px; clear:both; height: 190px; width: 266px; }
+
+                      /* area de botones grises ------------------------------------------------*/
+                      .banner { position: relative; z-index: 0; }
+                      .banner a { box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); display: block; height: 126px; width: 284px; }
+                      .banner a img { display: block; position: relative; z-index: -1; }
+                      .banner a:hover { box-shadow: inset 0 0 30px white, 0 0 5px rgba(0, 0, 0, 0.35); }
+                      #boton-gris-2 { margin-top: 4px;  margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-3 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-4 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-5 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-6 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-7 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-8 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+                      #boton-gris-9 { margin-top: 74px; margin-left: 10px; float:left; display:block; padding: 10px; clear:both; height: 50px; }
+
+
+
+                      /* area de boton verde del relevante ------------------------------------------------*/
+/*
+.green-box { background: #1b603c; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#175233',startColorstr='#207146'); 
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#175233',startColorstr='#207146')"; 
+			background-image: -webkit-gradient(linear, left top, left bottom, from(#207146), to(#175233)); 
+			background-image: -moz-linear-gradient(center top, #207146, #175233); 
+			border: 1px solid #ffffff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); 
+			color: #ffffff; padding: 10px; text-align: center; width: 262px; }
+            */			
+            .green-box { background: #1b603c; 
+               /*background-image: -webkit-gradient(linear, left top, left bottom);*/ 
+               /*background-image: -moz-linear-gradient(center top, #207146, #175233);*/ 
+               border: 1px solid #ffffff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); 
+               color: #ffffff; padding: 10px; text-align: center; width: 262px; }
+               .green-box > div { border: 1px solid #4b8968; padding: 14px; height: 165px;}
+
+
+               /* area de boton gris del relevante ------------------------------------------------*/
+               .grey-box { background: #e6e6e6; color: #fafafa; padding: 10px; text-align: center; width: 262px; }
+               .grey-box > div { border: 1px solid #a4a4a4; padding: 14px; height: 165px;}
+
+
+               /* pie de página --------------------------------------------------------*/
+               /* ----------------------------------------------------------------------*/
+               /* ----------------------------------------------------------------------*/
+               #pie-pagina { margin-top: 10px; background:transparent; height: 300px; width: 995px; padding: 10px; }
+               #pie-botones-comerciales { margin-top: 0px; background:transparent; float: left; height: 60px; width: 995px; }
+               #pie-minibanners { margin-top: 15px; background:transparent; float: left; height: 380px; width: 990px; }
+
+               /* area de botones mini banner en el pie de página ------------------------*/
+               /* 1er línea de minibanners  ----------------------------------------------*/
+               #mini-banner-1 { margin-top: 14px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent; }
+               #mini-banner-2 { margin-top: 14px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent; }
+               #mini-banner-3 { margin-top: 14px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent; }
+               #mini-banner-4 { margin-top: 14px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-5 { margin-top: 14px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-6 { margin-top: 14px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               /* 2da línea de minibanners  ----------------------------------------------*/
+               #mini-banner-7 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-8 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-9 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-10 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-11 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-12 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               /* 3er línea de minibanners  ----------------------------------------------*/
+               #mini-banner-13 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-14 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-15 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-16 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-17 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+               #mini-banner-18 { margin-top: 2px; margin-bottom: 14px; margin-right: 2px;  margin-left: 14px; float:left; display:inline; padding: 4px; height: 100px; width: 140px; background:transparent;}
+
+
+
+               .minibanner { position: relative; z-index: 0; float:left;}
+               .minibanner a { box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); display: inline; height: 100px; width: 160px; }
+               .minibanner a img { display: inline; position: relative; z-index: -1; }
+               .minibanner a:hover { box-shadow: inset 0 0 20px white, 0 0 5px rgba(0, 0, 0, 0.35); }
+
+
+
+               /* botones sociales (facebook, twitter...) -----------------------------*/
+               .social-bts { height: 33px; list-style-type: none; padding: 10px; }
+               .social-bts li { float: left; margin: 0 4px; width: 33px; }
+               .social-bts li a { background-image: url("../img/sprites.png?v=1.6"); background-repeat: no-repeat; background-position: 0px 0px; /*size: $width $height;*/ display: block; height: 33px; width: 33px; text-indent: -9999px; }
+               .social-bts li a.facebook { background-position: 0 -171px; }
+               .social-bts li a.facebook:hover { background-position: 0 -214px; }
+               .social-bts li a.twitter { background-position: -43px -171px; }
+               .social-bts li a.twitter:hover { background-position: -43px -214px; }
+               .social-bts li a.gplus { background-position: -86px -171px; }
+               .social-bts li a.gplus:hover { background-position: -86px -214px; }
+               .social-bts li a.youtube { background-position: -129px -171px; }
+               .social-bts li a.youtube:hover { background-position: -129px -214px; }
+               .social-bts li a.flickr { background-position: -172px -171px; }
+               .social-bts li a.flickr:hover { background-position: -172px -214px; }
+               .social-bts li a.rss { background-position: -215px -171px; }
+               .social-bts li a.rss:hover { background-position: -215px -214px; }
+               .social-bts li a.instagram { background-position: -235px -257px; }
+               .social-bts li a.instagram:hover { background-position: -192px -257px; }
+               /* pie de página (logo y datos generales) ------------------------------*/
+               #pie-logo-sep { margin-top: 0px; background: transparent; float: left; height: 90px; width: 995px; clear:both; padding: 10px; display:block; text-align:center; }
+               #pie-informacion { margin-top: 0px; background: transparent; float: left; height: 65px; width: 995px; clear:both; font: 12px "soberana_sansregular", Calibri, sans-serif; text-transform: capitalize; text-align: center; padding: 10px; }
+
+
+               /* titulos en texto -----------------------------------------------------*/
+               /* ----------------------------------------------------------------------*/
+               /* ----------------------------------------------------------------------*/
+
+               /* Titulos GRISES GRANDES -----------------------------------------------*/
+               .featured-title { color: #67686A; }
+               .featured-title { display: block; font: 48px/38px trajan, serif; margin-bottom: 30px; text-align: center; text-transform: capitalize; }
+               .featured-title:before, .featured-title:after { background: url("../img/line-01.gif") 0 50% repeat-x; content: ""; display: inline-block; width: 100px; height: 28px; }
+               .featured-title:before { margin-right: 10px; }
+               .featured-title:after { margin-left: 10px; }
+
+               /* Titulos GRISES pequeños ---------------------------------------------*/
+               .post-title { border-top: 1px solid #dad9d9; font-size: 15px; text-transform: uppercase; padding: 18px 0; position: relative; }
+               .post-title a { color: #2e2e2e; display: block; }
+               .post-title a:hover { color: #cf242a; text-decoration: none; }
+
+               /* contenido GRIS pequeños ---------------------------------------------*/
+               .post-content p { font: 15px/20px serif; margin-bottom: 20px; }
+               .post-content p:last-child { margin-bottom: 50px; }
+               .post-content p { margin-top: 1em; }
+
+               /* flechas de desplazamiento de noticias -------------------------------*/
+               .archive-nav { color: #848484; font: italic 15px/15px serif; height: 20px; margin: 40px auto; text-align: center; width: 260px; }
+
+               .archive-nav .prev, .archive-nav .next { background-image: url("../img/sprites.png?v=1.6"); background-repeat: no-repeat; background-position: 0px 0px; 
+               display: block; height: 15px; width: 8px; text-indent: -9999px; }
+               .archive-nav .prev { background-position: -258px -171px; float: left; }
+               .archive-nav .next { background-position: -276px -171px; float: right; }
+
+
+               /* mostrar ocultar texto en pantalla de Historia del Tecnológico -------*/
+               #ocultarTextoUno { display: none; }
+               .ocultarTextoDos { display: none; }
+
+               /* centrar una imagen  -------------------------------------------------*/
+               .imgcenter{ display: block; margin-left: auto; margin-right: auto; border:none; }
+
+
+               /* botones --------------------------------------------------------------*/
+
+               .gbutton{float: left !important; margin: 10px 45px 0px 0px !important; padding: 8px 15px 10px 15px !important; height: 30px !important;}
+               .boton {
+                 /*transition: border-color 1.21799999475479s 1 cubic-bezier(0.25, 0.1, 0.25, 1);*/
+                 -moz-transition: border-color 0.21799999475479s 0 cubic-bezier(0.25, 0.1, 0.25, 1);
+                 -webkit-transition:border-color 0.21799999475479s 0 cubic-bezier(0.25, 0.1, 0.25, 1);
+                 border-radius: 2px;
+                 -webkit-border-radius: 2px;
+                 -moz-border-radius: 2px;
+
+                 background-color:#F1F1F1;
+                 border: 1px solid rgba(0, 0, 0, 0.0976563);
+                 color: #fff;
+                 display: inline-block;
+                 font-weight: bold;
+                 outline: 0px none #666;
+                 text-align: left;
+                 vertical-align: middle;
+                 white-space: nowrap;
+                 text-shadow: white 0px 1px 0px;
+                 width: auto !important;
+                 padding: 5px 10px;
+             }
+             .boton:hover {-webkit-box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 1px 0px; border-color:#747474; outline-color: #333;}
+             .boton a { color: #666; text-decoration: none; cursor: default; display: block; padding: 7px 10px 7px 12px;}
+             .boton:hover a {color: #333;}
+             .boton.primero {margin-right: -1px; border-radius: 2px 0 0 2px;border-right-width: 0;}
+             .boton.centro {margin-right: -1px;margin-left: -2px; border-radius: 0; border-right-width: 0;}
+             .boton.ultimo {margin-left: -2px; border-radius: 0 2px 2px 0;}
+             .boton.primero:hover,
+             .boton.centro:hover {border-right-width: 1px;}
+             .boton.primero:hover a,
+             .boton.centro:hover a {padding-right: 9px;}
+             .boton.blue {
+              background-color: #4ab6de;
+              background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#4ab6de), to(#4ab6de));
+              background-image: -o-linear-gradient(0% 0%, 0% 100%, from(#4ab6de), to(#4ab6de));
+              background-image: -moz-linear-gradient(0% 0%, 0% 100%, from(#4ab6de), to(#4ab6de));
+              border-color: #4ab6de #4ab6de #4ab6de #4ab6de;
+              text-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 0px;
+          }
+          .boton.blue:hover {background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4ab6de), to(#4ab6de)); background-color:#4ab6de;}
+          .boton.blue a {color:#fff !important;}
+          .solo{margin: 0px 10px !important;}
+
+
+          /* Sitio de Interes */
+
+          #sitio_interes_1 { margin-top: 2px; margin-bottom: 14px; margin-right: 20px;  margin-left: 24px; float:left; display:inline; padding: 14px; height: 50px; width: 80px; background:transparent;}
+          #sitio_interes_2 { margin-top: 2px; margin-bottom: 14px; margin-right: 20px;  margin-left: 24px; float:left; display:inline; padding: 14px; height: 50px; width: 80px; background:transparent;}
+          #sitio_interes_3 { margin-top: 2px; margin-bottom: 14px; margin-right: 20px;  margin-left: 24px; float:left; display:inline; padding: 14px; height: 50px; width: 80px; background:transparent;}
+
+          table.fancy {
+            width: 100%;
+            font-size: 12px;
+        }
+        table.fancy th {
+            color: #FFFFFF;
+            background: #787878;
+        }
+        table.fancy tr {
+            position: relative;
+        }
+        table.fancy>tbody>tr>td {
+            width: 100%;
+        }
+        table.fancy>tbody>tr>td::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 10px;
+            background: radial-gradient(at 50% 0px, rgba(0,0,0,0.1) 10%,transparent 50%);   
+        }
+        table.fancy td {
+         table-layout: fixed;
+         padding: 0.5em;
+         vertical-align: top;
+         word-break: break-all;
+     }
+     table.fancy .media {
+        width: 240px;
+        min-height: 140px;
+        height: auto;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+        vertical-align: middle;
+    }
+    table.fancy a {
+        color: #b92025;
+        font-family: "soberana_titularregular";
+    }
+    table.fancy td.data {
+        vertical-align: top;
+        width: 100%;
+    }
+    table.fancy .desc {
+        font-family: "soberana_titularregular";
+        font-size: 1.4em;
+    }
+    p.beca {
+        padding: 1em 0px 1em 0px;
+    }
+    input[type='text'],
+    input[type='date'],
+    input[type='search'],
+    textarea,
+    select {
+        padding: 0.3em 0.5em;
+    }
+    form.gradient-form {
+        position: relative;
+        background-image: -webkit-linear-gradient(left, transparent, rgba(0,0,0,0.05), transparent);
+        background-image: -o-linear-gradient(left, transparent, rgba(0,0,0,0.05), transparent);
+        background-image: linear-gradient(to right, transparent, rgba(0,0,0,0.05), transparent);
+    }
+    form.gradient-form::before {
+        content: "";
+        position: absolute;
+        top:0px;
+        left:0px;
+        right: 0px;
+        height: 10px;
+        background-image: radial-gradient(at 50% 0px, rgba(0,0,0,0.1), transparent 80%);
+    }
+    form.gradient-form::after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 10px;
+        background-image: radial-gradient(at 50% 100%, rgba(0,0,0,0.1), transparent 80%);
+    }
+    div.wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        padding: 1em;
+    }
+    .fr {
+        display: table-row;
+    }
+    .fr label.field {
+        vertical-align: top;
+        margin: 0.3em;
+        text-align: right;
+        display: table-cell;
+    }
+    .fr input.field {
+        vertical-align: top;
+        margin: 0.3em;
+        display: table-cell;
+    }
+    .tc {
+        display: table-cell;
+    }
+    legend {
+        color: #B92025;
+        font: 1em "soberana_titularregular";
+    }
+    table.readable th {
+        color: #FFFFFF;
+        background: #666666;
+    }
+    table.readable th,
+    table.readable td {
+        padding: 0.3em 1em;
+    }
+    table.readable tr:nth-child(odd) {
+        background: #F0F0F0;
+    }
+    #botones_activos .media,
+    #botones_inactivos .media {
+        height: 80px;
+        width: 150px;
+    }
+    #botones_activos .link,
+    #botones_inactivos .link {
+        word-break: break-all;
+    }
+    iframe{
+        overflow-x: hidden !important;
+        height: 1000px;  
+        width: 900;
+    }
+    #area-noticias2 { margin-top: 0px; background:transparent; float: left; height: auto; width: auto;}
+
+    .ui-widget-header{
+        border: 1px solid #e78f08;
+          border-top-color: #A4A4A4;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-right-color: rgb(231, 143, 8);
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-bottom-color: rgb(231, 143, 8);
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-left-color: rgb(231, 143, 8);
+          border-left-style: solid;
+          border-left-width: 1px;
+          background: #f6a828 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
+          color: #ffffff;
+          font-weight: bold;
+    }
+    p.comunicado{
+        font: 16px "soberana_sansregular", Calibri, sans-serif;
+        background-color: rgb(238,238,238);
+        text-align: justify;
+        text-justify: inter-word;
+
+    }
+
+    footer{float: left; width: 100%; height: 25px; padding-top: 15px; margin-top: 20px;}
+    footer p{margin: 0 auto 0 auto; width: 1000px; text-align: center; color: #202020;}
+    footer p a{color: #202020 !important;}
+
+}
